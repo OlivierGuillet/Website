@@ -1,6 +1,8 @@
+box: debian
 build:
   steps:
-    - arjen/hugo-build@1.8.1
+    - arjen/hugo-build:
+        version: "0.15"
 deploy:
   steps:
     - script:
@@ -12,4 +14,4 @@ deploy:
         basedir: public
         clean_removed_files: true
         branch: master
-        repo: OlivierGuillet/OlivierGuillet.github.io
+        repo: OlivierGuillet/olivierguillet.github.io
