@@ -2,7 +2,7 @@ baseurl = "http://olivierguillet.github.io/"
 languageCode = "en-us"
 title = "Olivier Guillet | Cyberculture"
 theme = "hugo-steam-theme"
-disqusShortname = "Olivier Guillet"
+disqusShortname = "olivierguillet"
 paginate = 10
 
 [permalinks]
